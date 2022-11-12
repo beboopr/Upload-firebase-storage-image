@@ -1,10 +1,12 @@
 import React from 'react';
 import Upload from './components/Upload';
 import './App.css';
+import SinglePost from "./components/SinglePost";
 
 function App() {
   return (
     <div className="App">
+      <SinglePost />
       <header className="App-header">
         <img src={"https://firebasestorage.googleapis.com/v0/b/upload-storage-ed.appspot.com/o/photos%2FPR.jpeg?alt=media"} className="App-logo" alt="logo" />
         <p>
